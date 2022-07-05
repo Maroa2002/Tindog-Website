@@ -1,0 +1,153 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Ubuntu";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+/* Downoad buttons */
+.download-button {
+    margin: 3% 5% 3% 0;
+}
+
+
+/* Title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+
+/* Features Section */
+#features {
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-headings {
+    font-size: 2rem;
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+
+.features-text {
+    color: #8f8f8f;
+}
+
+.font-icons {
+    color: #ef8172;
+    margin-bottom: 3%;
+}
+
+.font-icons:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Press Section */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+
+/* cta section */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* footer section */
+#footer {
+    text-align: center;
+    padding: 1.5% 15%;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px ) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
